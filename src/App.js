@@ -1,17 +1,13 @@
-import logo from './logo.svg';
+import squat from './Squat.jpeg';
 import './App.css';
-import Card from './components/Card.js';
-import Test from './components/test.js';
+import ContainerExample from './components/Container.js';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <Card />
+        <img src={squat} className="App-logo" alt="logo" />
+        <ContainerExample />
       </header>
     </div>
   );
